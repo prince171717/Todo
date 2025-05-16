@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    /* width: 100%; */
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.form input::placeholder{
+    font-size: 12px;
+    font-style: italic;
+    
+}

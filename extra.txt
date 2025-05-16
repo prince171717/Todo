@@ -1,0 +1,18 @@
+     1.    this is for hamburger from right side 
+     <ul
+          className={`fixed top-20 right-0 h-full w-64 bg-blue-600 text-white p-6 z-50 transform transition-transform duration-300 ease-in-out flex flex-col gap-4
+          ${isMenuOpen ? "translate-x-0" : "translate-x-full"} 
+          md:transform-none md:static md:translate-x-0  md:w-auto md:flex-row md:bg-transparent md:p-0 md:text-white`}
+        >
+        </ul>
+
+
+     2.  click outside pe menu close ho jaye uska explaination
+
+      Part	                                                  Meaning
+      menuRef.current    	                            Refers to the <ul> element (menu)
+      event.target	                                     The element that the user clicked on
+      menuRef.current.contains(event.target)              Checks if the click happened inside the menu
+      !	                                                Means "not" → so it’s checking if the click was outside
+
+ title="delete"   // isse tooltip kehte hai
